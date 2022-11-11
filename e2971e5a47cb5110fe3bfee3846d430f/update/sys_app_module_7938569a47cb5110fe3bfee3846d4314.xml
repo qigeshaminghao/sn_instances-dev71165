@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="github">3d38569a47cb5110fe3bfee3846d430b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_735570_github_sub_github</name>
+        <order>3</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>active=true^EQ</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-11 05:53:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7938569a47cb5110fe3bfee3846d4314</sys_id>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="github" source="x_735570_github">e2971e5a47cb5110fe3bfee3846d430f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="github">e2971e5a47cb5110fe3bfee3846d430f</sys_scope>
+        <sys_update_name>sys_app_module_7938569a47cb5110fe3bfee3846d4314</sys_update_name>
+        <timeline_page/>
+        <title>Open</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

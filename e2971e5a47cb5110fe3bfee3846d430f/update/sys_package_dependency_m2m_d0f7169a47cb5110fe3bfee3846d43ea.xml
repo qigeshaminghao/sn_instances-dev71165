@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">1a7056e4f90211108c8bd16244dfe705</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-11 05:52:45</sys_created_on>
+        <sys_id>d0f7169a47cb5110fe3bfee3846d43ea</sys_id>
+        <sys_package display_value="github" source="x_735570_github">e2971e5a47cb5110fe3bfee3846d430f</sys_package>
+    </sys_package_dependency_m2m>
+</record_update>
