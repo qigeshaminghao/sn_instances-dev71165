@@ -1,0 +1,17 @@
+name: All-In-One
+env:
+  REPO_OWNER: qigeshaminghao
+  REPO_NAME: sn_instances-dev71165
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+on:
+  repository_dispatch:
+    types: [run-ping-allinone, run-pong-allinone, run-done-allinone]
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install packages
+        run: npm ci
+      - name: Run ${{ github.event.client_payload.command }}
+        run: npm run ${{ github.event.client_payload.command }} allinone
